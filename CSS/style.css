@@ -133,3 +133,28 @@ footer {
 	background: #316099;
 	color: #fff;
 }
+/*.footer_caption {
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+*, :after, :before {
+	box-sizing: border-box;
+}
+div {
+	display: block;
+}
+.nav-link {
+	font-size: 13px;
+	display: block;
+}
+li {
+	text-align: -webkit-match-parent;
+}
+.nav {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+*/
