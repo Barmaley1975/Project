@@ -133,7 +133,25 @@ footer {
 	background: #316099;
 	color: #fff;
 }
-
+.topfooter {
+	display: flex;
+	text-align: center;
+}
+.middlefooter {
+	display: flex;
+	text-align: center;
+}
+.social {
+	display: flex;
+	flex-wrap:nowrap;
+}
+.bottomfooter {
+	display: flex;
+	text-align: left;
+}
+li {
+	list-style:none;
+}
 /* catalog */
 .catalog {
 	display: flex;
