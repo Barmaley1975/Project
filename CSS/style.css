@@ -152,6 +152,33 @@ main {
 }
 
 /* footer */
+.footer_caption {
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+}
+li {
+	list-style: none;
+	text-align: center;
+}
+.topfooter {
+	padding: 10px;
+	margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.middlefooter {
+	padding: 10px;
+	margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.social ul, .payment ul{
+	padding: 10px;
+	margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
 footer {
 	background: #316099;
 	color: #fff;
