@@ -155,14 +155,28 @@ main {
 
 .footer_caption {
 	text-align: center;
+	padding: 5px;
+	margin: 5px;
 }
 li {
 	list-style: none;
 	text-align: center;
 }
 .topfooter {
-	padding: 0;
-	margin: 0;
+	padding: 10px;
+	margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.middlefooter {
+	padding: 10px;
+	margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.social ul, .payment ul{
+	padding: 10px;
+	margin: 10px;
     display: flex;
     flex-direction: row;
 }
