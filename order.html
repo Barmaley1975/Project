@@ -7,8 +7,10 @@
         <link rel="stylesheet" href="css/style.css">
         <script src="js/jquery-3.6.0.js"></script>
         <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/jquery.mask.js"></script>
+        <script src="js/order.js"></script>
+        <script src="js/calendar.js"></script>
         <script src="js/scripts.js"></script>
-		<script src="js/jquery.mask.js"></script>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -17,17 +19,12 @@
                     <div class="container">
                         <div id="yourcity">
                             <p>Ваш город: Москва</p>
-                            <div class="div-popup">
-                                <span>Ваш город: Москва?</span>
-                                <button type="button" class="btn-yes">Да</button>
-                                <button type="button" class="btn-no">Нет</button>
-                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="mainheader">
                     <div class="container">
-                        <img src="images/mylogo.jpg" alt="" class="logo">
+                        <img src="images/Octocat_github.png" id="privet" alt="" class="logo">
                         
                         <button type="button" class="basket">5</button>
                         <div class="basket-label">В корзине 5 капибар</div>
@@ -183,13 +180,12 @@
                         </tfoot>
                     </table>
                     <form id="orderdata">
-                        <input type="text" id="name">
-                        <input type="text" id="address">
-                        <input type="text" id="email">
-                        <input type="text" id="date">
-                        <textarea id="comment"></textarea>
+                        <input type="text" id="name" placeholder="name"><br>
+                        <input type="text" id="address" placeholder="address"><br>
+                        <input type="text" id="email" placeholder="email"><br>
+                        <input type="text" id="date" placeholder="date"><br>
+                        <textarea id="comment" placeholder="comment"></textarea><br>
                         <button type="submit">Отправить заказ</button>
-						<script src="js/calendar.js"></script>
                     </form>
                 </div>
             </main>
@@ -199,6 +195,11 @@
                 <br>
                 <br>
             </footer>
+        </div>
+        <div class="popup-desk">
+            <div class="popup">
+                
+            </div>
         </div>
 	</body>
 </html>

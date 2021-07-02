@@ -100,6 +100,7 @@ p {
 	left: 0;
 	padding: 20px 0 5px;
 	box-shadow: 1px 2px 5px rgba(0,0,0,.4);
+	z-index: 1;
 }
 .menupoint:hover > span,
 .menupoint > span:hover {
@@ -152,33 +153,6 @@ main {
 }
 
 /* footer */
-.footer_caption {
-	text-align: center;
-	padding: 5px;
-	margin: 5px;
-}
-li {
-	list-style: none;
-	text-align: center;
-}
-.topfooter {
-	padding: 10px;
-	margin: 10px;
-    display: flex;
-    flex-direction: row;
-}
-.middlefooter {
-	padding: 10px;
-	margin: 10px;
-    display: flex;
-    flex-direction: row;
-}
-.social ul, .payment ul{
-	padding: 10px;
-	margin: 10px;
-    display: flex;
-    flex-direction: row;
-}
 footer {
 	background: #316099;
 	color: #fff;
@@ -187,9 +161,10 @@ footer {
 /* aside */
 aside {
 	flex: none;
-	width: 180px;
+	width: 100px;
 	background: brown;
 	color: #fff;
+	display: none;
 }
 .catmenu {
 	padding: 16px;
@@ -295,9 +270,6 @@ aside {
 	.cat-blocks {
 		gap: 32px;
 	}
-	aside {
-		width: 260px;
-	}
 	.catalog {
 		gap: 16px;
 	}
@@ -306,10 +278,17 @@ aside {
 	.cat-blocks {
 		gap: 4px;
 	}
+	aside {
+		display: block;
+		width: 160px;
+	}
 }
 @media (min-width: 992px) {
 	.cat-blocks {
 		gap: 10px;
+	}
+	aside {
+		width: 260px;
 	}
 }
 @media (min-width: 1200px) {
