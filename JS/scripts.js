@@ -117,4 +117,9 @@ $(function(){
         e.preventDefault();
         orderAction();
     })
+    
+    if ($('.product').length) {
+        $('.main-image').on('click', 'img', seebigimage);
+        $('.small-image').on('click', 'img', changeimage);
+    }
 });

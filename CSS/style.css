@@ -294,16 +294,27 @@ aside {
 	width: 100%;
 }
 .gallery-desk {
-	width: 500px;
+	width: 530px;
 	float: left;
 	margin-right: 10px;
 }
 .main-image {
-	width: 500px;
-	padding: 9px;
+	padding: 24px;
 	background: #fff;
 	border: 1px solid #000;
-	border-radius: 10px;
+	border-radius: 25px;
+}
+.gallery {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.small-image {
+	width: 170px;
+	padding: 4px;
+	background: #fff;
+	border: 1px solid #000;
+	border-radius: 5px;
 }
 
 /* different screens */
