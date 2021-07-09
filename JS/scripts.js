@@ -122,4 +122,13 @@ $(function(){
         $('.main-image').on('click', 'img', seebigimage);
         $('.small-image').on('click', 'img', changeimage);
     }
+    
+    if ($('.small-image > img').length) {
+        $('.small-image > img').each(function(){
+            $(this).css({
+                'margin-top': (160 - $(this).height()) / 2,
+                'margin-left': (160 - $(this).width()) / 2
+            })
+        });
+    }
 });
