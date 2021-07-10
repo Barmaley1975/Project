@@ -175,6 +175,55 @@ main {
 	flex: 1 1 auto;
 	background: #fff;
 }
+body {
+    margin: 0;
+    font-family: Arial;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.slider {
+    position: relative;
+    width: 1200px;
+    height: 650px;
+    overflow: hidden;
+}
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.rule {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.slider:hover .rule {
+    display: block;
+}
+.rule span {
+    position: absolute;
+    top: calc(50% - 17px);
+    cursor: pointer; /* курсор показывает, что тут активный элемент */
+    user-select: none; /* запрещаем выделение текста - кнопка не "синеет", как по ней ни кликай*/
+    font-size: 30px;
+    width: 34px;
+    text-align: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,.5);
+}
+.left {
+    left: 5%;
+}
+.right {
+    right: 5%;
+}
+
+
 
 /* footer */
 
@@ -200,6 +249,12 @@ li {
     flex-direction: row;
 }
 .social ul, .payment ul{
+	padding: 10px;
+	margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.bottomfooter {
 	padding: 10px;
 	margin: 10px;
     display: flex;
